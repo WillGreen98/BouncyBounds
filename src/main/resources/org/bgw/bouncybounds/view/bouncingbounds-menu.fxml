@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.bgw.bouncybounds.controller.MenuController">
+
+    <HBox fx:id="shapesMenu" alignment="CENTER" prefHeight="39.0" prefWidth="200.0" spacing="10.0" style="-fx-border-color: green;"
+          AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+        <children>
+            <Button fx:id="startButton" mnemonicParsing="false" text="Start" />
+            <Button fx:id="stopButton" mnemonicParsing="false" text="Stop" />
+            <RadioButton fx:id="ballsRadio" mnemonicParsing="false" text="Balls" />
+            <Slider fx:id="ballsSlider" prefHeight="14.0" prefWidth="100.0" />
+            <RadioButton fx:id="squaresSlider" mnemonicParsing="false" text="Squares" />
+            <Slider fx:id="squareRadio" prefHeight="14.0" prefWidth="100.0" />
+            <Button fx:id="randomiseButton" mnemonicParsing="false" text="Randomise" />
+        </children>
+    </HBox>
+</AnchorPane>
